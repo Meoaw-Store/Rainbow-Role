@@ -1,0 +1,17 @@
+{
+  "name": "Rainbow Role",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Meoaw Store",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "discord.js-selfbot": "^12.0.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
