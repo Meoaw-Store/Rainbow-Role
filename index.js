@@ -14,6 +14,6 @@ process.on('unhandledRejection', (reason, promise) => {
     console.log('[Error] Unhandled Rejection at:', reason.stack || reason)
 })
 
-client.login(config.token)
+client.login(config.token || process.env.TOKEN)
 
 
